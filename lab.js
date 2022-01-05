@@ -154,6 +154,30 @@ if (changeMyMind !== 'pizza') {
 ////////// PROBLEM 11 //////////
 
 let z = 5
-// Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
+// Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1.
+// Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
-//CODE HERE
+while (z > 0) {
+  for(let i = z; i > 0; i--) { /* for loop goes from 5 to 1, since z is 5. After it goes through the loop, the z-- on the bottom makes the starting point a 4, 
+                                  making the loop run from 4 to 1, etc. */
+    console.log(i)
+  }
+  z--
+  // Longer method
+  // for(z = 5; z > 0; z--) {
+  //      console.log(`${z}`)
+  //}
+  // for(z = 4; z > 0; z--) {
+  //   console.log(`${z}`)
+  // }
+  // for(z = 3; z > 0; z--) {
+  //   console.log(`${z}`)
+  // }
+  // for(z = 2; z > 0; z--) {
+  //   console.log(`${z}`)
+  // }
+  // for(z = 1; z > 0; z--) {
+  //   console.log(`${z}`)
+  // }
+
+}
