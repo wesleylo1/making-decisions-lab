@@ -119,6 +119,8 @@ let passingScore = 7
 while (score < passingScore) {
   console.log('Your score is not high enough')
   score++ //x += 1
+} if (score == passingScore) {
+  console.log('Your score is 7 and win!')
 }
 
 ////////// INTERMEDIATE PROBLEMS //////////
@@ -143,8 +145,9 @@ if (changeMyMind == true) {
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
-if (changeMyMind !== 'pizza') {
-  console.log('true')
+if (changeMyMind !== 'hamburger') {
+  let changeMyMind = true
+  console.log(changeMyMind)
 }
 
 
